@@ -1,12 +1,13 @@
 # Lucas Lousada Website
 
-A personal homepage and CV built as a static website. The content is based on the public LinkedIn profile for Lucas Lousada.
+A personal homepage and CV built as a static website. The content is based on Lucas Lousada’s CV and LinkedIn profile.
 
 ## Files
 
-- `index.html` — homepage with profile, CV summary, and contact links
-- `styles.css` — responsive styling for the personal site
-- `script.js` — footer year and button interaction
+- `index.html` — homepage with profile, experience, education, and contact links
+- `styles.css` — responsive styling for desktop and mobile
+- `script.js` — footer year and small interactive behavior
+- `Profile.pdf` — downloadable CV
 
 ## Run locally
 
@@ -23,4 +24,4 @@ This site is already configured to work with GitHub Pages. The published URL is:
 
 ## Update the site
 
-Edit `index.html` to update your name, summary, experience, education, and contact details. Then push the changes to GitHub to redeploy automatically.
+Edit `index.html` and `styles.css` to update your profile, experience, education, or design. Then commit and push changes to GitHub to redeploy.
