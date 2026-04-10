@@ -180,19 +180,22 @@ main {
 }
 
 .skill-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.75rem;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   margin-bottom: 1rem;
 }
 
 .skill-pill {
+  display: inline-flex;
+  align-items: center;
   padding: 0.95rem 1rem;
   background: rgba(148, 163, 184, 0.1);
   border: 1px solid rgba(148, 163, 184, 0.18);
   border-radius: 9999px;
   color: #e2e8f0;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .tool-grid {
