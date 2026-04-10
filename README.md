@@ -1,12 +1,12 @@
-# Project1
+# Lucas Lousada Website
 
-A simple static website starter built with HTML, CSS, and JavaScript.
+A personal homepage and CV built as a static website. The content is based on the public LinkedIn profile for Lucas Lousada.
 
 ## Files
 
-- `index.html` — main page
-- `styles.css` — responsive styling
-- `script.js` — simple interactivity
+- `index.html` — homepage with profile, CV summary, and contact links
+- `styles.css` — responsive styling for the personal site
+- `script.js` — footer year and button interaction
 
 ## Run locally
 
@@ -15,27 +15,12 @@ A simple static website starter built with HTML, CSS, and JavaScript.
    - Python 3: `python3 -m http.server 8000`
    - Then visit `http://localhost:8000`
 
-## Free hosting options
+## Deploy
 
-### GitHub Pages
-1. Create a new GitHub repository.
-2. Add and commit these files.
-3. Push to the `main` branch.
-4. Enable GitHub Pages from repository Settings → Pages.
-5. Choose the `main` branch and `/ (root)` folder.
+This site is already configured to work with GitHub Pages. The published URL is:
 
-### Netlify
-1. Sign up at https://app.netlify.com.
-2. Create a new site and connect your GitHub repository.
-3. Set the deploy branch to `main`.
-4. Or drag and drop the `project1` folder to deploy instantly.
+- `https://lucasmlousada.github.io/project1/`
 
-### Vercel
-1. Visit https://vercel.com and sign up.
-2. Import the GitHub repository.
-3. Choose the `main` branch and deploy.
+## Update the site
 
-## Notes
-
-- This is a static website, so it works with all free static hosts.
-- If you want a custom domain, GitHub Pages, Netlify, and Vercel all support it.
+Edit `index.html` to update your name, summary, experience, education, and contact details. Then push the changes to GitHub to redeploy automatically.
